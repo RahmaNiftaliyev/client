@@ -1,0 +1,295 @@
+.Register_form {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 160px;
+}
+.form_box {
+    padding: 55px 70px;
+    background-color: rgba(66, 66, 66, 1);
+    border: 1px solid #9c27b0;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+}
+.form_box > h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #e1bee7;
+    margin-bottom: 48px;
+}
+
+.signin_button_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.signin_button_box > button {
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.signin_button_facebook {
+    background: #5856d6;
+}
+.signin_button_github {
+    background: #2e2f2e;
+}
+
+.signin_button_google {
+    background: #f44336;
+    margin-right: 0 !important;
+}
+
+.signin_button_box > button > svg {
+    margin-right: 7px;
+}
+
+.signin_or_email > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.54);
+    margin-bottom: 46px;
+    position: relative;
+}
+
+.signin_or_email > p::after {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.54);
+    margin-top: -10px;
+}
+
+.signin_or_email > p::before {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.54);
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.form_box > form input,
+.contactUs_content > form input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.54);
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+    padding: 14px;
+    transform: all esae-in-out 0.3s;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.form_box > form > input,
+.contactUs_content > form input {
+    width: 100%;
+}
+
+.input_box > input {
+    width: calc(50% - 7px);
+}
+.input_box > input:last-child {
+    margin-left: 14px;
+}
+
+.form_box > form input:focus,
+.contactUs_content > form input {
+    border-bottom-color: rgba(255, 160, 0, 1);
+}
+.checkBox {
+    width: 100%;
+    display: flex;
+}
+.checkBox > input {
+    margin-right: 13px;
+    width: max-content !important;
+}
+.checkBox > label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.contine_button {
+    background: #9c27b0;
+    border-radius: 6px;
+    padding: 11px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    width: 160px;
+    margin-left: 50px;
+}
+
+.finished_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_content > h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38px;
+    color: #e1bee7;
+    margin-bottom: 30px;
+}
+
+.form_content > p {
+    color: white !important;
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 60px;
+}
+.form_content {
+    text-align: center;
+}
+
+.contactUs_content {
+    width: 550px;
+    background-color: rgba(66, 66, 66, 1);
+    border-radius: 15px;
+    padding: 40px 60px;
+    margin-top: 122px;
+    margin-bottom: 190px;
+}
+
+.contactUs_content textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.54);
+}
+.contactUs_content > h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+    color: #e1bee7;
+    margin-bottom: 23px;
+}
+.contactUs_content > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.ContactUs {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.contactUs_content > form > textarea {
+    height: 100px;
+}
+
+.sendMessage {
+    margin-top: 55px;
+    background: #9c27b0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+}
+.checkBoxContack {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .ContactUs {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contactUs_content {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 40px 20px;
+    }
+    .form_content > h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .form_content > p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .form_box > form input,
+    .contactUs_content > form input {
+        margin-bottom: 20px;
+    }
+    .input_box > input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .input_box > input:last-child {
+        margin-left: 0;
+    }
+    .contine_button {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .contactUs_content > h1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .contactUs_content > p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .contactUs_content > form > textarea {
+        height: 100px;
+    }
+    .sendMessage {
+        margin-top: 20px;
+    }
+    .checkBoxContack {
+        margin-top: 40px;
+    }
+}
